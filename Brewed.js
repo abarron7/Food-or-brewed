@@ -152,7 +152,7 @@ function initMap() {
       service.nearbySearch({
         location: pos,
         radius: 5000,
-        type: ['brewery']
+        type: ['bar']
 
       }, callback);
 
